@@ -10,10 +10,10 @@ public class ExceptionHandlingExample {
             int res = num/deno;
             System.out.println("Resule: "+res);
          }
-        //catch(ArithmeticException x){
+        //catch(ArithmeticException x){//perticular exception 
         //     System.out.println("Can't Divide by zero");
         // }
-        catch(Exception x){
+        catch(Exception x){//General Exception 
             System.out.println("An unexpected Error occured "+x.getMessage());
         }finally{
             System.out.println("Finally block execution for cleanup");
